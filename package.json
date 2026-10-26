@@ -1,0 +1,47 @@
+{
+  "name": "paseo-todo",
+  "version": "0.1.0",
+  "description": "Opencode-style todo cards for pi: a todowrite tool plus a persistent todo card pinned below the editor",
+  "type": "module",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-coding-agent",
+    "extension",
+    "todo",
+    "todowrite",
+    "task-list",
+    "opencode",
+    "paseo"
+  ],
+  "author": "NOknow95",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NOknow95/paseo-todo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/NOknow95/paseo-todo/issues"
+  },
+  "homepage": "https://github.com/NOknow95/paseo-todo#readme",
+  "publishConfig": {
+    "access": "public"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "files": [
+    "index.ts",
+    "state.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "@earendil-works/pi-ai": "*",
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*",
+    "typebox": "*"
+  }
+}
